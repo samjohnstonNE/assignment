@@ -1,0 +1,4 @@
+[un Dec J 19:00:55 GMT 2019 exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'eventDecription' in 'field list'' in /home/unn_w17004648/public_html/assignment_1_YR2/edit.php:36
+Stack trace:
+#0 /home/unn_w17004648/public_html/assignment_1_YR2/edit.php(36): PDO->query('SELECT eventID,...')
+#1 {main}

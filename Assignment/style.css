@@ -1,0 +1,171 @@
+header,section,footer,aside,nav,main,article,figure,img,input{
+    display: block;
+}
+p{ /*applies font, size, colour, and spacing to any text without a class*/
+    margin: auto;
+    font-size: 0.9em;
+    font-family: "Century Gothic", helvetica, sans-serif;
+    color: black;
+    padding: 5px;
+}
+a{
+    padding: 5px;
+}
+h1,h3{
+    padding: 5px;
+}
+h2{
+    margin: auto;
+    font-size: 0.9em;
+    font-family: "Century Gothic", helvetica, sans-serif;
+    color: black;
+}
+
+/*--------------------------------------------------------------*/
+/*----------------------------HEADER----------------------------*/
+/*--------------------------------------------------------------*/
+
+header{
+    border-top: solid black;
+    border-width: thin;
+    background-color: #5D704B;
+    background-image: url("https://transparenttextures.com/patterns/asfalt-dark.png"); /*adds texture*/
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family: Calibri, helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------NAVIGATION--------------------------*/
+/*--------------------------------------------------------------*/
+
+nav{
+    font-size: 1.25em;
+}
+nav ul{
+    list-style-type: none; /*removes bullet points from the list*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /*compatibility with safari*/
+    position: sticky;
+    top: 0;
+    background-color: #F5F5E2;
+}
+nav li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+nav li:last-child{
+    border-right: none;
+}
+nav a{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none; /*removes line underneath links*/
+}
+nav a:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /*compatibility with IE8 and earlier*/
+    background-color: #383838;
+    color: white;
+}
+.active{
+    background-color: lightblue;
+}
+
+/*--------------------------------------------------------------*/
+/*-----------------------------BODY-----------------------------*/
+/*--------------------------------------------------------------*/
+
+body{
+    font-family: Calibri, helvetica, sans-serif;
+    color: black;
+    background-color: #d3d3d3;
+    background-image: url("https://transparenttextures.com/patterns/cardboard.png"); /*adds texture*/
+    margin: 0; /*to remove border around the edge of the page*/
+}
+
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 100%;
+}
+th,td{
+    border: 1px solid black;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.records{
+    text-align: center;
+    font-size: 0.9em;
+    font-family: "Century Gothic", helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+    padding: 15px;
+}
+.data{
+    padding: 5px;
+}
+.special{
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#offers{
+    padding-left: 5px;
+}
+
+/*---------------------------------------------------------------*/
+
+
+form{
+    font-size: 0.9em;
+    font-family: "Century Gothic", helvetica, sans-serif;
+    padding-left: 5px;
+
+}
+label{
+    display: block;
+}
+input{
+    font-size: 0.9em;
+    font-family: "Century Gothic", helvetica, sans-serif;
+}
+textarea{
+    width:400px;
+    height:100px;
+}
+.form{
+    width:400px;
+}
+.button{
+    display: inline;
+}
+.submit{
+    display: inline;
+}
+#description{
+    width:300px;
+    height:50px;
+}
+
+
+/*--------------------------------------------------------------*/
+/*----------------------------FOOTER----------------------------*/
+/*--------------------------------------------------------------*/
+
+footer{
+    border-top: solid black;
+    border-width: thin;
+    background-color: #5D704B;
+    background-image: url("https://transparenttextures.com/patterns/asfalt-dark.png"); /*adds texture*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Calibri, helvetica, sans-serif;
+    color: white;
+}
